@@ -7,5 +7,5 @@ export function showStateUpdate(current: GlideRecord, previous: GlideRecord) {
     const previousState = previous.getValue('state')
 
     //gs.addInfoMessage(`state updated from "${previousState}" to "${currentState}"`)
-    gs.addErrorMessage(snakeCase(`state updated from "${previousState}" to "${currentState}"`))
+    gs.addErrorMessage(snakeCase(`state updated from "${previousState}" to: "${currentState}"`))
 }
