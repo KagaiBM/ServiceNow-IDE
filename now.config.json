@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_report_k_saf",
+  "scopeId": "97a9f254c9a232107f44af9ac6dfb587",
+  "name": "safety",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
